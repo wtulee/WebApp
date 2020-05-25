@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using WebTest.Models;
 
 namespace WebTest.Controllers    
-{
+{   
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

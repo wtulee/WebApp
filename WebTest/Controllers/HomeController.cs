@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WebTest.Models;
 
-namespace WebTest.Controllers
+namespace WebTest.Controllers    
 {
     public class HomeController : Controller
     {

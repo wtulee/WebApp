@@ -11,6 +11,8 @@ namespace WebTest.Controllers
 {   
     public class HomeController : Controller
     {
+        private int itest = 1;
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -23,10 +25,10 @@ namespace WebTest.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        //public IActionResult Privacy()
+        //{
+        //    return View();
+        //}
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
